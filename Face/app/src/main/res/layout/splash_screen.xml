@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/splashscreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@mipmap/ic_launcher"/>
+
+    <com.hanks.htextview.HTextView
+        android:id="@+id/tagline_htext"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/splashscreen"
+        android:gravity="center"
+        android:textColor="@color/ColorPrimary"
+        android:textSize="30sp"/>
+
+</RelativeLayout>

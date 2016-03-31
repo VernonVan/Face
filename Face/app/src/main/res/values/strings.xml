@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Face</string>
+
+    <!--Splash Activity-->
+    <string name="tagline">How old do I look?</string>
+
+    <!--Main Activity-->
+    <string name="hello_world">Hello world!</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="networkAvailable">网络可用</string>
+    <string name="networkUnavailable">网络不可用</string>
+
+    <!--Util-->
+    <string name="error_img_type">不支持的图片类型</string>
+
+    <!--Toolbar-->
+    <string name="action_uploadPhoto">上传照片</string>
+    <string name="action_share">分享</string>
+
+    <!--选择照片-->
+    <string name="selectPhoto">选择照片</string>
+    <string name="detectPhoto">检测照片</string>
+    <string name="detectSuccessful">检测成功</string>
+    <string name="detectError">检测失败</string>
+
+    <!--人脸检测-->
+    <string name="faceDetect">人脸检测</string>
+    <string name="nullPhotoMessage">请先选择照片</string>
+    <string name="zero_face">没有检测到人脸</string>
+
+    <!--相似指数-->
+    <string name="similarFace">相似指数</string>
+    <string name="VS">VS</string>
+
+    <!--趣味贴图-->
+    <string name="funnyChartlet">趣味贴图</string>
+
+</resources>

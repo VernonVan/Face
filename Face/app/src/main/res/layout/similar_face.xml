@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<io.codetail.widget.RevealFrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:id="@+id/similar_face_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize">
+
+        <com.hanks.htextview.HTextView
+            android:id="@+id/similar_result_text"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:textSize="80sp" />
+
+        <LinearLayout
+            android:id="@+id/similar_linear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp">
+
+            <ImageView
+                android:id="@+id/similar_face_img1"
+                android:layout_width="160dp"
+                android:layout_height="240dp"
+                android:background="#000000"
+                android:src="@mipmap/emptyface"
+                android:scaleType="centerCrop"/>
+
+            <TextView
+                android:id="@+id/vs_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="3dp"
+                android:paddingRight="3dp"
+                android:text="@string/VS"
+                android:textColor="@color/ColorPrimary"
+                android:textSize="25sp"/>
+
+            <ImageView
+                android:id="@+id/similar_face_img2"
+                android:layout_width="160dp"
+                android:layout_height="240dp"
+                android:background="#000000"
+                android:src="@mipmap/emptyface"
+                android:scaleType="centerCrop"/>
+
+        </LinearLayout>
+
+        <com.dd.CircularProgressButton
+            android:id="@+id/similar_index_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/similar_linear"
+            android:layout_alignRight="@+id/similar_linear"
+            android:layout_below="@+id/similar_linear"
+            android:layout_marginTop="24dp"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            app:cpb_selectorIdle="@drawable/idle_state_selector"
+            app:cpb_textComplete="@string/similarFace"
+            app:cpb_textError="@string/detectError"
+            app:cpb_textIdle="@string/similarFace"/>
+
+    </RelativeLayout>
+
+</io.codetail.widget.RevealFrameLayout>

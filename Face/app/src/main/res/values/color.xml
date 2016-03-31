@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="ColorPrimary">#FF5722</color>
+    <color name="ColorPrimaryDark">#D84315</color>
+    <color name="ColorLightOrange">#FF7043</color>
+    <color name="ColorWhite">#FFFFFF</color>
+    <color name="ColorGrey">#BDBDBD</color>
+    <color name="ColorBlue">#03A9F4</color>
+
+    <color name="ColorSelectPhotoButton">#4CAF50</color>
+    <color name="ColorButtonSelected">#388E3C</color>
+
+</resources>

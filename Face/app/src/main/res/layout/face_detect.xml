@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<io.codetail.widget.RevealFrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/upload_photo"
+        layout="@layout/upload_photo"/>
+
+    <LinearLayout
+        android:id="@+id/face_detect_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:orientation="vertical"
+        android:visibility="invisible">
+
+        <ImageView
+            android:id="@+id/detect_result_img"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#000000"
+            android:scaleType="centerCrop"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/age_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@color/ColorBlue"
+                android:text="18岁"
+                android:textColor="@color/ColorWhite"
+                android:textSize="50sp"/>
+
+            <TextView
+                android:id="@+id/gender_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/age_text"
+                android:layout_marginBottom="70dp"
+                android:layout_marginRight="20dp"
+                android:layout_toLeftOf="@id/age_text"
+                android:background="@color/ColorBlue"
+                android:text="男"
+                android:textColor="@color/ColorWhite"
+                android:textSize="50sp"/>
+
+            <TextView
+                android:id="@+id/race_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/smile_text"
+                android:layout_alignTop="@id/age_text"
+                android:layout_marginTop="80dp"
+                android:background="@color/ColorBlue"
+                android:text="蒙古人种"
+                android:textColor="@color/ColorWhite"
+                android:textSize="30sp"/>
+
+            <TextView
+                android:id="@+id/smile_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/gender_text"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/age_text"
+                android:background="@color/ColorBlue"
+                android:text="微笑"
+                android:textColor="@color/ColorWhite"
+                android:textSize="30sp"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</io.codetail.widget.RevealFrameLayout>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<io.codetail.widget.RevealFrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/upload_photo"
+        layout="@layout/upload_photo"/>
+
+    <LinearLayout
+        android:id="@+id/funny_chartlet_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:orientation="vertical"
+        android:visibility="invisible">
+
+        <ImageView
+            android:id="@+id/funny_chartlet_photo"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#000000"
+            android:scaleType="centerCrop"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginTop="4dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/eye1"
+                android:tag="eye1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@color/ColorLightOrange"
+                android:padding="2dp"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/eye1"/>
+
+            <ImageButton
+                android:id="@+id/eye2"
+                android:tag="eye2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@color/ColorLightOrange"
+                android:padding="2dp"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/eye2"/>
+
+            <ImageButton
+                android:id="@+id/eye3"
+                android:tag="eye3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@color/ColorLightOrange"
+                android:padding="2dp"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/eye3"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/eye4"
+                android:tag="eye4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@color/ColorLightOrange"
+                android:padding="2dp"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/eye4"/>
+
+            <ImageButton
+                android:id="@+id/eye5"
+                android:tag="eye5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@color/ColorLightOrange"
+                android:padding="2dp"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/eye5"/>
+
+            <ImageButton
+                android:id="@+id/eye6"
+                android:tag="eye6"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@color/ColorLightOrange"
+                android:padding="2dp"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/eye6"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/eye7"
+                android:tag="eye7"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="4dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@color/ColorLightOrange"
+                android:padding="2dp"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/eye7"/>
+
+            <ImageButton
+                android:id="@+id/eye8"
+                android:tag="eye8"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@color/ColorLightOrange"
+                android:padding="2dp"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/eye8"/>
+
+            <ImageButton
+                android:id="@+id/eye9"
+                android:tag="eye9"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="4dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@color/ColorLightOrange"
+                android:padding="2dp"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/eye9"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</io.codetail.widget.RevealFrameLayout>
