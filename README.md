@@ -1,5 +1,6 @@
 Face
 ============================================
+[![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/VernonVan/Face/blob/master/LICENSE.md)
 ###简介
 Face是一款与人脸检测相关的Android软件，主要实现人脸基本信息检测、趣味贴图、相似指数等功能。
 
